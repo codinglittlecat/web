@@ -27,7 +27,7 @@ import { bnOrZero } from 'lib/bignumber/bignumber'
 import { SendInput } from 'components/Modals/Send/Form'
 import { useSendFees } from '../hooks/useSendFees/useSendFees'
 import { SendRoutes } from '../Send'
-import { TxFeeRadioGroup } from '../TxFeeRadioGroup'
+import { TxFeeRadioGroup } from 'components/Modals/Send/TxFeeRadioGroup'
 
 export type FeePrice = {
   [key in chainAdapters.FeeDataKey]: {
